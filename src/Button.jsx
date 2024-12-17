@@ -1,6 +1,10 @@
 
 
 function Button (){
+
+    
+    const handleClick = () => console.log("You have clicked me ")
+
     const styles = {
             backgroundColor: "hsl(200,100%, 50%)",
             color: "white",
@@ -11,7 +15,7 @@ function Button (){
     }
 
     return (
-        <button style={styles}>Click me</button>
+        <button onClick={handleClick} style={styles}>Click me</button>
     )
 }
 
