@@ -16,4 +16,10 @@ Student.propTypes = {
     isStudent:  PropTypes.bool
 }
 
+Student.defaultProps = {
+    name: 'Guess',
+    age: '0',
+    isStudent: false
+  }
+
 export default Student

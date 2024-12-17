@@ -35,3 +35,6 @@
 .student p {
   margin: 0;
 }
+.welcome-message {
+  color: hsl(0, 0%, 18%);
+}
