@@ -1,11 +1,11 @@
+import profilePic from './assets/pexels-samad-ismayilov-231721-757307.jpg'
 
 function Card (){
     return (
         <div className="card">
-            <img src="https://picsum.photos/id/237/450/300?grayscale" alt="this is profile picture" />
-            <h2>JoseDev</h2>
-            <p>I code and workout</p>
-
+            <img className='card-image' src={profilePic} alt="profile Picture" />
+            <h2 className='card-tittle'>JoseDev</h2>
+            <p className='card-p'>React practice</p>
         </div>
     );
 
