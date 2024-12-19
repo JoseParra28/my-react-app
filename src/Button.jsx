@@ -2,7 +2,7 @@
 
 function Button (){
 
-    let nameN = 'Jose'
+    let nameN = 'Jose';
     let count = 0;
     const handleClick = (name) => {
     if(count < 3 ){
